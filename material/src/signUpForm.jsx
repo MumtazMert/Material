@@ -3,7 +3,7 @@ import { UserField } from "./components/usernameField";
 import { PasswordField } from "./components/passwordField";
 import { SubmitButton } from "./components/submitButton";
 
-export function Card() {
+export function SignUpForm () {
   return (
     <div className="card">
       <h2>Sign Up</h2>
