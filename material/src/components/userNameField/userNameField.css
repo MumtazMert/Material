@@ -1,0 +1,18 @@
+#ulabel {
+    position: absolute;
+    left: 10px;
+    top: 25px;
+    transition: top 0.3s ease, left 0.3s ease, font-size 0.3s ease;
+  }
+  
+  #ulabel.filled {
+    top: 0; 
+    left: 0; 
+    font-size: 12px; 
+  }
+
+  #username:focus + #ulabel {
+    top: 0;
+    left: 0;
+    font-size: 12px;
+  }

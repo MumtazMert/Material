@@ -1,5 +1,5 @@
 import React from 'react';
-import { InputField } from '../scripts/inputFocus'; // adjust the path as needed
+import { InputField } from '../../scripts/inputFocus'; // adjust the path as needed
 
 export const EmailField = () => {
   return (

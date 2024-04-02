@@ -1,7 +1,7 @@
-import { EmailField } from "./components/emailField";
-import { UserField } from "./components/usernameField";
-import { PasswordField } from "./components/passwordField";
-import { SubmitButton } from "./components/submitButton";
+import { EmailField } from "./components/emailField/emailField";
+import { UserField } from "./components/userNameField/usernameField";
+import { PasswordField } from "./components/passwordField/passwordField";
+import { SubmitButton } from "./components/submitButton/submitButton";
 
 export function Card() {
   return (
