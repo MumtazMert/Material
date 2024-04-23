@@ -1,10 +1,10 @@
 import React from 'react';
-import { Card } from './card';
+import { SignUpForm } from './signUpForm';
 
 export const Homepage = () => {
   return (
     <div>
-      <Card />
+      <SignUpForm />
     </div>
   );
 }
