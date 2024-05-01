@@ -1,21 +1,21 @@
-#email {
+.email {
     border: grey solid 1px;
     border-radius: 4px;
    }
    
-   #email:hover {
+   .email:hover {
      border: white solid 3px;
      transition: 0ms;
    }
   
-   #elabel {
+   .elabel {
     position: absolute;
     left: 10px;
     top: 25px;
     transition: top 0.3s ease, left 0.3s ease, font-size 0.3s ease;
   }
   
-  #email:focus + #elabel
+  .email:focus + #elabel
   {
     top: -5px;
     left: 10px;
@@ -26,7 +26,7 @@
     padding-right: 5px;
   }
 
-  #elabel.filled {
+  .elabel.filled {
     top: -5px; 
     left: 13; 
     font-size: 14px; 
